@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- *Description: main function  Prints two numbers
- with different combination 
+ * main - prints with putchar function
+ *
+ * Description: main function prints two numbers
+ * with different combination
  *
  * Return: Always 0 (Success)
  */
