@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - prints the alphabets using putchar function
  *
- * main - prints the alphabet in lowercase,
+ * Description: using the main funtion
+ * this program print alphabets in lowercase
  * followed by a new line
  * Return: Always 0 (Success)
  */
