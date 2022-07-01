@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 00 to 89.
+ *Description: main function  Prints two numbers
+ with different combination 
  *
  * Return: Always 0 (Success)
  */
