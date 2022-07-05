@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -7,9 +7,16 @@
  *
  * Return: 0
  */
-
-int _putchar()
+int main(void)
 {
-	putchar("_putchar\n");
+	char text[9] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
+
 	return (0);
 }
