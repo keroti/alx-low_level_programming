@@ -2,6 +2,7 @@
 
 /**
  * times_table - prints times table
+ *
  * Return:void
  */
 
