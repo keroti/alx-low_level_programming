@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	puts();
+	puts("%s/n");
 	return 0;
 }
