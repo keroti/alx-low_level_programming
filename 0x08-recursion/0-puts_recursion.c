@@ -1,13 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 
-/*
- * main - puts function is used to print string
- *
- * Return: 0
+/**
+ * _puts_recursion - print a string.
+ * @s: pointer to char
+ * Return: No.
  */
-int main(void)
+
+void _puts_recursion(char *s)
 {
-	puts("%s/n");
-	return 0;
+	if (*s != '\0')
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	else
+	{
+	_putchar('\n');
+	}
 }
