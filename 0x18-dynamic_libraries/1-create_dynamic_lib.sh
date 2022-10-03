@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc *.c -shared -c liabll.so
+gcc -c -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+gcc *.o -shared -o liabll.so
